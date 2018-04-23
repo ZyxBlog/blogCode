@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
-description:
-keywords:
-author: Zhouyixuan
-language:
+title: 白驹过隙，忽然而已
+subtitle: keep moving
+description: 非淡泊无以明志，非宁静无以致远
+keywords: 前端,IT,Python
+author: 周轶轩
+language: zh-Hans
 timezone:
 
 # URL
@@ -70,10 +70,17 @@ time_format: HH:mm:ss
 per_page: 10
 pagination_dir: page
 
+# Search
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
+
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
