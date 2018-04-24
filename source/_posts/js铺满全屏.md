@@ -22,7 +22,7 @@ body,html {
 
 ### js实现
 当body里面有个div,在不操作body的情况下,设置div宽高,使它铺满屏幕,
-* 首先css
+首先css
 ```bash
 body,html {  
     padding: 0;
@@ -50,5 +50,5 @@ body,html {
         whole.style.width = w + 'px';
     };
 </script>
-
+```
 clientHeight和clientWidth是可视区的高和宽,但是如果屏幕缩放会出现留白或者滚动条,因此当window.onresize时触发事件,重新赋值铺满,这样就可以了
