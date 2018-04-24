@@ -21,5 +21,6 @@ categories:
 <body>  
     <div id="aa">我们<h1>可以看到</h1>字显示<h2>出来</h2>就像输入一样</div>
 </body>
+```
 大致效果:
 ![show](http://oj171eydn.bkt.clouddn.com/show1.jpg)

@@ -8,7 +8,10 @@ categories:
 ---
 
 ### html
-首先返回顶部需要搭建好静态页面
+首先返回顶部需要搭建好静态页面.
+首先建立好整个功能的架构
+具体如下图所示：
+
 ![静态html](http://oj171eydn.bkt.clouddn.com/show2.png)
 
 ### css

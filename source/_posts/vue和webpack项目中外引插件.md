@@ -13,6 +13,7 @@ webpack+vue这种框架与普通html文件写入是不同的，它的语法是�
 ```bash
 <link rel="stylesheet" type ="text/css" href="a.css" />
 <script type="text/javascript" src="a.js"></script>
+```
 首先我们需要在webpack.config.js中loaders里面配置好css或者less.<br>接着我们可以在该.vue文件里面的style模块中用ES6的语法import直接引入该文件.
 对于初学者来说可能要配置和引入文件比较麻烦,那我们可以选一种更直接的方法,那就是在index.html中像普通css和js一样引入.
 ![程序图](http://oj171eydn.bkt.clouddn.com/chengxutu3.jpg)
